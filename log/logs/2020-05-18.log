@@ -1,0 +1,145 @@
+2020-05-18 22:47:42,231 user_log.py--> <module> 24: DEBUG--> tests1234
+2020-05-18 22:48:09,409 user_log.py--> <module> 24: DEBUG--> tests1234
+2020-05-18 23:23:32,223 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:51501/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-05-18 23:23:32,225 connectionpool.py--> _new_conn 225: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:51501
+2020-05-18 23:23:34,584 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:51501 "POST /session HTTP/1.1" 200 895
+2020-05-18 23:23:34,584 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:23:34,584 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:51501/session/d947af43bb3962cad9775bffb8006e6d/url {"url": "http://www.5itest.cn/register", "sessionId": "d947af43bb3962cad9775bffb8006e6d"}
+2020-05-18 23:23:48,022 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:51501 "POST /session/d947af43bb3962cad9775bffb8006e6d/url HTTP/1.1" 200 72
+2020-05-18 23:23:48,023 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:23:48,023 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:51501/session/d947af43bb3962cad9775bffb8006e6d/window/current/maximize {"windowHandle": "current", "sessionId": "d947af43bb3962cad9775bffb8006e6d"}
+2020-05-18 23:23:49,155 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:51501 "POST /session/d947af43bb3962cad9775bffb8006e6d/window/current/maximize HTTP/1.1" 200 109
+2020-05-18 23:23:49,156 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:23:49,156 first_case.py--> setUp 24: DEBUG--> this is chrome
+2020-05-18 23:30:13,210 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:51697/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-05-18 23:30:13,212 connectionpool.py--> _new_conn 225: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:51697
+2020-05-18 23:30:14,783 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:51697 "POST /session HTTP/1.1" 200 896
+2020-05-18 23:30:14,785 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:30:14,785 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:51697/session/ea9f448dca3d0a0862306f5fe16f3942/url {"url": "http://www.5itest.cn/register", "sessionId": "ea9f448dca3d0a0862306f5fe16f3942"}
+2020-05-18 23:30:28,275 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:51697 "POST /session/ea9f448dca3d0a0862306f5fe16f3942/url HTTP/1.1" 200 72
+2020-05-18 23:30:28,275 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:30:28,275 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:51697/session/ea9f448dca3d0a0862306f5fe16f3942/window/current/maximize {"windowHandle": "current", "sessionId": "ea9f448dca3d0a0862306f5fe16f3942"}
+2020-05-18 23:30:29,420 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:51697 "POST /session/ea9f448dca3d0a0862306f5fe16f3942/window/current/maximize HTTP/1.1" 200 109
+2020-05-18 23:30:29,420 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:30:29,420 first_case.py--> setUp 25: DEBUG--> this is chrome
+2020-05-18 23:30:35,150 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:51726/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-05-18 23:30:35,151 connectionpool.py--> _new_conn 225: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:51726
+2020-05-18 23:30:36,699 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:51726 "POST /session HTTP/1.1" 200 895
+2020-05-18 23:30:36,699 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:30:36,699 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:51726/session/4a376ee649652b59476d6e7bc6ea50f4/url {"url": "http://www.5itest.cn/register", "sessionId": "4a376ee649652b59476d6e7bc6ea50f4"}
+2020-05-18 23:30:50,226 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:51726 "POST /session/4a376ee649652b59476d6e7bc6ea50f4/url HTTP/1.1" 200 72
+2020-05-18 23:30:50,226 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:30:50,226 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:51726/session/4a376ee649652b59476d6e7bc6ea50f4/window/current/maximize {"windowHandle": "current", "sessionId": "4a376ee649652b59476d6e7bc6ea50f4"}
+2020-05-18 23:30:51,363 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:51726 "POST /session/4a376ee649652b59476d6e7bc6ea50f4/window/current/maximize HTTP/1.1" 200 109
+2020-05-18 23:30:51,363 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:30:51,363 first_case.py--> setUp 25: DEBUG--> this is chrome
+2020-05-18 23:30:56,983 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:51755/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-05-18 23:30:56,983 connectionpool.py--> _new_conn 225: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:51755
+2020-05-18 23:30:58,539 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:51755 "POST /session HTTP/1.1" 200 896
+2020-05-18 23:30:58,539 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:30:58,539 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:51755/session/a62df27809a7e025046d007f8d0659cd/url {"url": "http://www.5itest.cn/register", "sessionId": "a62df27809a7e025046d007f8d0659cd"}
+2020-05-18 23:31:11,834 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:51755 "POST /session/a62df27809a7e025046d007f8d0659cd/url HTTP/1.1" 200 72
+2020-05-18 23:31:11,834 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:31:11,834 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:51755/session/a62df27809a7e025046d007f8d0659cd/window/current/maximize {"windowHandle": "current", "sessionId": "a62df27809a7e025046d007f8d0659cd"}
+2020-05-18 23:31:12,967 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:51755 "POST /session/a62df27809a7e025046d007f8d0659cd/window/current/maximize HTTP/1.1" 200 109
+2020-05-18 23:31:12,968 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:31:12,968 first_case.py--> setUp 25: DEBUG--> this is chrome
+2020-05-18 23:31:18,737 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:51784/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-05-18 23:31:18,738 connectionpool.py--> _new_conn 225: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:51784
+2020-05-18 23:31:20,305 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:51784 "POST /session HTTP/1.1" 200 896
+2020-05-18 23:31:20,305 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:31:20,305 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:51784/session/3dc1f6dd3c09f1f469d3cb7eaf0daced/url {"url": "http://www.5itest.cn/register", "sessionId": "3dc1f6dd3c09f1f469d3cb7eaf0daced"}
+2020-05-18 23:31:39,993 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:51784 "POST /session/3dc1f6dd3c09f1f469d3cb7eaf0daced/url HTTP/1.1" 200 72
+2020-05-18 23:31:39,994 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:31:39,994 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:51784/session/3dc1f6dd3c09f1f469d3cb7eaf0daced/window/current/maximize {"windowHandle": "current", "sessionId": "3dc1f6dd3c09f1f469d3cb7eaf0daced"}
+2020-05-18 23:31:41,114 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:51784 "POST /session/3dc1f6dd3c09f1f469d3cb7eaf0daced/window/current/maximize HTTP/1.1" 200 109
+2020-05-18 23:31:41,114 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:31:41,115 first_case.py--> setUp 25: DEBUG--> this is chrome
+2020-05-18 23:42:48,150 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52160/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-05-18 23:42:48,150 connectionpool.py--> _new_conn 225: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:52160
+2020-05-18 23:42:49,700 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52160 "POST /session HTTP/1.1" 200 896
+2020-05-18 23:42:49,700 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:42:49,700 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52160/session/8acc8763dc51cc10ce4d1fe7c284c122/url {"url": "http://www.5itest.cn/register", "sessionId": "8acc8763dc51cc10ce4d1fe7c284c122"}
+2020-05-18 23:43:03,057 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52160 "POST /session/8acc8763dc51cc10ce4d1fe7c284c122/url HTTP/1.1" 200 72
+2020-05-18 23:43:03,058 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:43:03,058 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52160/session/8acc8763dc51cc10ce4d1fe7c284c122/window/current/maximize {"windowHandle": "current", "sessionId": "8acc8763dc51cc10ce4d1fe7c284c122"}
+2020-05-18 23:43:04,190 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52160 "POST /session/8acc8763dc51cc10ce4d1fe7c284c122/window/current/maximize HTTP/1.1" 200 109
+2020-05-18 23:43:04,190 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:43:04,190 first_case.py--> setUp 22: DEBUG--> this is chrome
+2020-05-18 23:43:10,044 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52190/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-05-18 23:43:10,045 connectionpool.py--> _new_conn 225: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:52190
+2020-05-18 23:43:11,591 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52190 "POST /session HTTP/1.1" 200 896
+2020-05-18 23:43:11,592 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:43:11,592 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52190/session/ceadef80985942f5bd94d75292dbadfd/url {"url": "http://www.5itest.cn/register", "sessionId": "ceadef80985942f5bd94d75292dbadfd"}
+2020-05-18 23:43:24,790 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52190 "POST /session/ceadef80985942f5bd94d75292dbadfd/url HTTP/1.1" 200 72
+2020-05-18 23:43:24,790 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:43:24,790 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52190/session/ceadef80985942f5bd94d75292dbadfd/window/current/maximize {"windowHandle": "current", "sessionId": "ceadef80985942f5bd94d75292dbadfd"}
+2020-05-18 23:43:25,926 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52190 "POST /session/ceadef80985942f5bd94d75292dbadfd/window/current/maximize HTTP/1.1" 200 109
+2020-05-18 23:43:25,926 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:43:25,926 first_case.py--> setUp 22: DEBUG--> this is chrome
+2020-05-18 23:43:31,416 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52219/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-05-18 23:43:31,417 connectionpool.py--> _new_conn 225: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:52219
+2020-05-18 23:43:32,987 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52219 "POST /session HTTP/1.1" 200 896
+2020-05-18 23:43:32,988 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:43:32,988 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52219/session/3c92fb0c8895a3e66add6f51c5e66850/url {"url": "http://www.5itest.cn/register", "sessionId": "3c92fb0c8895a3e66add6f51c5e66850"}
+2020-05-18 23:43:46,585 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52219 "POST /session/3c92fb0c8895a3e66add6f51c5e66850/url HTTP/1.1" 200 72
+2020-05-18 23:43:46,585 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:43:46,585 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52219/session/3c92fb0c8895a3e66add6f51c5e66850/window/current/maximize {"windowHandle": "current", "sessionId": "3c92fb0c8895a3e66add6f51c5e66850"}
+2020-05-18 23:43:47,719 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52219 "POST /session/3c92fb0c8895a3e66add6f51c5e66850/window/current/maximize HTTP/1.1" 200 109
+2020-05-18 23:43:47,720 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:43:47,720 first_case.py--> setUp 22: DEBUG--> this is chrome
+2020-05-18 23:43:53,456 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52250/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-05-18 23:43:53,456 connectionpool.py--> _new_conn 225: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:52250
+2020-05-18 23:43:55,046 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52250 "POST /session HTTP/1.1" 200 895
+2020-05-18 23:43:55,047 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:43:55,048 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52250/session/8ae312f6667d149ac7782b92f6552e03/url {"url": "http://www.5itest.cn/register", "sessionId": "8ae312f6667d149ac7782b92f6552e03"}
+2020-05-18 23:44:08,316 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52250 "POST /session/8ae312f6667d149ac7782b92f6552e03/url HTTP/1.1" 200 72
+2020-05-18 23:44:08,316 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:44:08,316 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52250/session/8ae312f6667d149ac7782b92f6552e03/window/current/maximize {"windowHandle": "current", "sessionId": "8ae312f6667d149ac7782b92f6552e03"}
+2020-05-18 23:44:09,454 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52250 "POST /session/8ae312f6667d149ac7782b92f6552e03/window/current/maximize HTTP/1.1" 200 109
+2020-05-18 23:44:09,455 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:44:09,455 first_case.py--> setUp 22: DEBUG--> this is chrome
+2020-05-18 23:44:56,045 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52284/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-05-18 23:44:56,045 connectionpool.py--> _new_conn 225: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:52284
+2020-05-18 23:44:57,607 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52284 "POST /session HTTP/1.1" 200 895
+2020-05-18 23:44:57,608 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:44:57,608 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52284/session/3e432f507bda7be0457cac7146937083/url {"url": "http://www.5itest.cn/register", "sessionId": "3e432f507bda7be0457cac7146937083"}
+2020-05-18 23:45:10,894 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52284 "POST /session/3e432f507bda7be0457cac7146937083/url HTTP/1.1" 200 72
+2020-05-18 23:45:10,894 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:45:10,894 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52284/session/3e432f507bda7be0457cac7146937083/window/current/maximize {"windowHandle": "current", "sessionId": "3e432f507bda7be0457cac7146937083"}
+2020-05-18 23:45:12,014 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52284 "POST /session/3e432f507bda7be0457cac7146937083/window/current/maximize HTTP/1.1" 200 109
+2020-05-18 23:45:12,015 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:45:12,015 first_case.py--> setUp 22: DEBUG--> this is chrome
+2020-05-18 23:45:17,784 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52316/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-05-18 23:45:17,785 connectionpool.py--> _new_conn 225: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:52316
+2020-05-18 23:45:19,349 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52316 "POST /session HTTP/1.1" 200 896
+2020-05-18 23:45:19,350 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:45:19,350 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52316/session/fc2d0d12de6674e36a8deb0cde430123/url {"url": "http://www.5itest.cn/register", "sessionId": "fc2d0d12de6674e36a8deb0cde430123"}
+2020-05-18 23:45:32,771 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52316 "POST /session/fc2d0d12de6674e36a8deb0cde430123/url HTTP/1.1" 200 72
+2020-05-18 23:45:32,771 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:45:32,771 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52316/session/fc2d0d12de6674e36a8deb0cde430123/window/current/maximize {"windowHandle": "current", "sessionId": "fc2d0d12de6674e36a8deb0cde430123"}
+2020-05-18 23:45:33,886 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52316 "POST /session/fc2d0d12de6674e36a8deb0cde430123/window/current/maximize HTTP/1.1" 200 109
+2020-05-18 23:45:33,886 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:45:33,886 first_case.py--> setUp 22: DEBUG--> this is chrome
+2020-05-18 23:45:39,140 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52348/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-05-18 23:45:39,141 connectionpool.py--> _new_conn 225: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:52348
+2020-05-18 23:45:40,726 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52348 "POST /session HTTP/1.1" 200 896
+2020-05-18 23:45:40,727 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:45:40,727 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52348/session/d0d0ddeb0e25449ce6dd3d5b2afcb7a9/url {"url": "http://www.5itest.cn/register", "sessionId": "d0d0ddeb0e25449ce6dd3d5b2afcb7a9"}
+2020-05-18 23:45:54,005 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52348 "POST /session/d0d0ddeb0e25449ce6dd3d5b2afcb7a9/url HTTP/1.1" 200 72
+2020-05-18 23:45:54,005 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:45:54,005 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52348/session/d0d0ddeb0e25449ce6dd3d5b2afcb7a9/window/current/maximize {"windowHandle": "current", "sessionId": "d0d0ddeb0e25449ce6dd3d5b2afcb7a9"}
+2020-05-18 23:45:55,117 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52348 "POST /session/d0d0ddeb0e25449ce6dd3d5b2afcb7a9/window/current/maximize HTTP/1.1" 200 109
+2020-05-18 23:45:55,117 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:45:55,117 first_case.py--> setUp 22: DEBUG--> this is chrome
+2020-05-18 23:46:00,827 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52378/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-05-18 23:46:00,828 connectionpool.py--> _new_conn 225: DEBUG--> Starting new HTTP connection (1): 127.0.0.1:52378
+2020-05-18 23:46:02,388 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52378 "POST /session HTTP/1.1" 200 897
+2020-05-18 23:46:02,389 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:46:02,389 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52378/session/decdf96428a897bb1f344e78a328e3a2/url {"url": "http://www.5itest.cn/register", "sessionId": "decdf96428a897bb1f344e78a328e3a2"}
+2020-05-18 23:46:15,694 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52378 "POST /session/decdf96428a897bb1f344e78a328e3a2/url HTTP/1.1" 200 72
+2020-05-18 23:46:15,694 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:46:15,694 remote_connection.py--> _request 388: DEBUG--> POST http://127.0.0.1:52378/session/decdf96428a897bb1f344e78a328e3a2/window/current/maximize {"windowHandle": "current", "sessionId": "decdf96428a897bb1f344e78a328e3a2"}
+2020-05-18 23:46:16,807 connectionpool.py--> _make_request 437: DEBUG--> http://127.0.0.1:52378 "POST /session/decdf96428a897bb1f344e78a328e3a2/window/current/maximize HTTP/1.1" 200 109
+2020-05-18 23:46:16,808 remote_connection.py--> _request 440: DEBUG--> Finished Request
+2020-05-18 23:46:16,808 first_case.py--> setUp 22: DEBUG--> this is chrome
